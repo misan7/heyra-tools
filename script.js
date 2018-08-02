@@ -140,3 +140,9 @@ const analyst = [
   },
   { question: "Siempre tomo las decisiones por mí mismo", trait: "analyst" }
 ];
+
+const testTogether = { analyst, searcher, negotiator, master }
+
+var test = testTogether.map(function(x) {
+    return x
+})
